@@ -3,9 +3,9 @@ import React from 'react'
 const Menu = () => {
     return (
         <>
-            <div className="box is-mobile">
+            <div className="box container is-mobile is-desktop">
 
-                <div className='container '>
+                <div className='container'>
                     <h4>1. Kinesiska vårrullar 76:- </h4>
                     <p>2 st vårrullar med köttfärs och vitkål.</p>
                 </div>

@@ -1,11 +1,12 @@
 
 import { FaBars, FaFacebook, FaTimes } from 'react-icons/fa'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import "../Styles/main.css"
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navRef = useRef();
+    /*    const isMenuOpen = useState(true); */
 
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");

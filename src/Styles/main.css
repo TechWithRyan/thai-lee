@@ -79,9 +79,7 @@ nav {
 }
 
 .container {
-    display: flex;
-    color: white;
-    flex-direction: column;
+    text-align: center;
 }
 
 .container h4 {
@@ -91,7 +89,6 @@ nav {
 .box {
     padding: 20px;
     text-align: left;
-    width: 70rem;
     margin: 0 auto;
     letter-spacing: 1px;
     line-height: 20px;
@@ -99,13 +96,8 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
-}
-
-p {
-    flex-wrap: wrap;
-    display: flex;
-    flex-basis: content;
+    flex: content;
+    color: white;
 }
 
 @media only screen and (max-width: 1024px) {
