@@ -4,9 +4,9 @@ import '../Styles/main.css'
 const HelgBuffe = () => {
     return (
         <>
-            <div className='container box'>
-                <video src="/src/assets/5.mp4" autoPlay controls></video>
+            <div className='container box contact'>
                 <h1>Helgbuffé 109:-</h1>
+                <video src="/src/assets/5.mp4" autoPlay controls></video>
             </div>
         </>
     )
