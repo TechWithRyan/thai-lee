@@ -11,6 +11,27 @@ body {
     background-image: url("/src/assets/4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+}
+
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    font-size: 20px;
+    background-color: #111111;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.logo,
+.nav-btn {
+    color: #f2e825;
 }
 
 .logo {
@@ -72,18 +93,35 @@ header .nav-btn {
     font-size: 1.8rem;
 }
 
+video {
+    width: 75%;
+    justify-content: center;
+    display: flex;
+    z-index: -5;
+    margin: 100px auto;
+}
+
 header div,
 nav {
     display: flex;
     align-items: center;
 }
 
-.container {
+.container,
+h1,
+h4 {
     text-align: center;
 }
 
 .container h4 {
     font-size: 20px;
+}
+
+.center {
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .box {
@@ -98,6 +136,16 @@ nav {
     gap: 20px;
     flex: content;
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background: url("/src/assets/11.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -129,6 +177,7 @@ nav {
         position: absolute;
         top: 2rem;
         right: 2rem;
+
     }
 
     nav a {

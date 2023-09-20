@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router';
 import Contact from './Pages/Contact';
 import LunchBuffe from './Pages/LunchBuffe';
 import HelgBuffe from './Pages/HelgBuffe';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/helg" element={<HelgBuffe />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
 
 
