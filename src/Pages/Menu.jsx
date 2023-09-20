@@ -3,7 +3,7 @@ import React from 'react'
 const Menu = () => {
     return (
         <>
-            <div className="box container is-mobile is-desktop">
+            <div className="box container">
 
                 <div className='container'>
                     <h4>1. Kinesiska vårrullar 76:- </h4>

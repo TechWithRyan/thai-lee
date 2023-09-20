@@ -11,7 +11,15 @@ body {
     background-image: url("/src/assets/4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
 }
 
 
@@ -24,9 +32,8 @@ body {
     height: 7rem;
     font-size: 20px;
     background-color: #111111;
-    bottom: 0;
-    position: relative;
     width: 100%;
+    margin-top: auto;
 }
 
 .logo,

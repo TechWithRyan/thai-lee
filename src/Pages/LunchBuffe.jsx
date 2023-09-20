@@ -4,9 +4,8 @@ import '../Styles/main.css'
 const LunchBuffe = () => {
     return (
         <>
-            <div className='container box contact'>
+            <div className='container box center contact'>
                 <h1>Lunchbuffé 109:-</h1>
-                <video src="/src/assets/5.mp4" autoPlay controls className='media'></video>
                 <br />
 
 
