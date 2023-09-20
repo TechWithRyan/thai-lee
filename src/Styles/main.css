@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+body {
+    background-image: url("/src/assets/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    text-decoration: none;
+    font-style: var(--secondaryColor);
+    font-size: 30px;
+    color: #f2e825;
+}
+
+.logo a:hover {
+    color: var(--textColor);
+    transition: ease-in-out 0.5s;
+}
+
+.logo a {
+    text-decoration: none;
+    font-style: normal;
+    color: #f2e825;
+}
+
+:root {
+    --mainColor: #29335c;
+    --mainColorLight: #434343;
+    --secondaryColor: #f2e825;
+    --textColor: #eee;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background: transparent;
+    color: var(--textColor);
+}
+
+nav a {
+    margin: 0 1rem;
+    color: var(--textColor);
+    text-decoration: none;
+    font-size: 30px;
+    transition: ease-in-out 0.5s;
+}
+
+nav a:hover {
+    color: var(--secondaryColor);
+}
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+header div,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.container h4 {
+    font-size: 20px;
+}
+
+.box {
+    padding: 20px;
+    text-align: left;
+    width: 70rem;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    line-height: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+p {
+    flex-wrap: wrap;
+    display: flex;
+    flex-basis: content;
+}
+
+@media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+    }
+
+    header .responsive_nav {
+        transform: translateY(100vh);
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+}
