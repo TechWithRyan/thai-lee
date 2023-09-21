@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url("/src/assets/4.jpg");
+    background-image: url("/src/assets/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -74,6 +74,7 @@ header {
     padding: 0 2rem;
     background: transparent;
     color: var(--textColor);
+    margin: 0 auto;
 }
 
 nav a {
@@ -136,6 +137,10 @@ h4 {
     gap: 20px;
     flex: content;
     color: white;
+}
+
+video {
+    width: 70%;
 }
 
 @media only screen and (max-width: 768px) {

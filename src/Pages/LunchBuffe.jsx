@@ -5,10 +5,10 @@ const LunchBuffe = () => {
     return (
         <>
             <div className='container box center contact'>
-                <h1>Lunchbuffé 109:-</h1>
+                <h1>Vardags Buffé</h1>
+
                 <br />
-
-
+                <video src="/src/assets/5.mp4" autoPlay controls></video>
             </div>
         </>
     )

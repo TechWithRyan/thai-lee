@@ -54,6 +54,14 @@ const Menu = () => {
                     <h4>12. Chow Sam Sing - Lite stark! 148:-</h4>
                     <p>Wokade grönsaker med kycklingfilé & räkor i stark sötsursås & vitlök</p>
                 </div>
+                <div className="container">
+                    <h4>13. Red Hot Phuket 138:-</h4>
+                    <p>Wokade grönsaker med kycklingfilé & räkor i stark thai röd curry & kokosmjölk</p>
+                </div>
+                <div className="container">
+                    <h4>14. Forest Thai - Mycket stark! 138:-</h4>
+                    <p>Wokad biff i stark thai gröncurry & kokosmjölk</p>
+                </div>
             </div>
         </>
     )
