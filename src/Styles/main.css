@@ -91,7 +91,7 @@ header {
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    background: transparent;
+    background: black;
     color: var(--textColor);
     margin: 0 auto;
 }
@@ -164,7 +164,7 @@ video {
 
 @media only screen and (max-width: 768px) {
     body {
-        background: url("/src/assets/21.jpg");
+        background: url("/src/assets/22.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
