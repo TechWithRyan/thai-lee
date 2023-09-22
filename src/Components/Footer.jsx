@@ -6,11 +6,9 @@ const Footer = () => {
     return (
         <>
             <footer className="footer">
-                <p className='container'>
+                <p className=''>
                     Alla rättigheter förbehållna.
                 </p>
-                <div className='navbar-item'>
-                </div>
             </footer>
         </>
     )

@@ -1,10 +1,17 @@
 import React from 'react'
-import Menu from './Menu'
+import "../Styles/main.css"
 
 const Home = () => {
     return (
         <>
-            <Menu />
+            <div className="App">
+                <div className="container center home-page">
+                    <h1>
+                        Varmt Välkomna
+                    </h1>
+                </div>
+            </div>
+
         </>
     )
 }

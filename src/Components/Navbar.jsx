@@ -23,6 +23,7 @@ const Navbar = () => {
                 <Link to="/lunch">Lunchbuffé</Link>
                 <Link to="/helg">Helgbuffé</Link>
                 <Link to="/contact">Kontakt</Link>
+                <Link to="/take-away">Take away</Link>
                 <div className='navbar-item'>
                     <a href="https://www.facebook.com/profile.php?id=100089347540081"><FaFacebook /></a>
                 </div>
