@@ -12,18 +12,22 @@ const Navbar = () => {
         navRef.current.classList.toggle("responsive_nav");
 
     }
+    const closeNavbar = () => {
+        navRef.current.classList.remove("responsive_nav");
+
+    }
 
     return (
         <header>
-            <h3 className='logo'><a href='/'>Restaurang Thai Lee</a></h3>
+            <h3 className='logo'><a href='/'>Restaurang Tai Lee</a></h3>
             <nav ref={navRef}>
-                <h3 className='logo nav-btn'>Restaurang Thai Lee</h3>
+                <h3 className='logo nav-btn'>Restaurang Tai Lee</h3>
 
-                <Link to="/">Hem</Link>
-                <Link to="/lunch">Lunchbuffé</Link>
-                <Link to="/helg">Helgbuffé</Link>
-                <Link to="/contact">Kontakt</Link>
-                <Link to="/take-away">Take away</Link>
+                <Link to="/" onClick={closeNavbar}>Hem</Link>
+                <Link to="/lunch" onClick={closeNavbar}>Lunchbuffé</Link>
+                <Link to="/helg" onClick={closeNavbar}>Helgbuffé</Link>
+                <Link to="/contact" onClick={closeNavbar}>Kontakt</Link>
+                <Link to="/take-away" onClick={closeNavbar}>Take away</Link>
                 <div className='navbar-item'>
                     <a href="https://www.facebook.com/profile.php?id=100089347540081"><FaFacebook /></a>
                 </div>
