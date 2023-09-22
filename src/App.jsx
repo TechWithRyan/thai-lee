@@ -7,6 +7,7 @@ import Contact from './Pages/Contact';
 import LunchBuffe from './Pages/LunchBuffe';
 import HelgBuffe from './Pages/HelgBuffe';
 import Footer from './Components/Footer';
+import TakeAway from './Pages/TakeAway';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/lunch" element={<LunchBuffe />} />
         <Route path="/helg" element={<HelgBuffe />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/take-away" element={<TakeAway />} />
       </Routes>
       <Footer />
     </>
