@@ -13,7 +13,7 @@ const Home = () => {
                     <h1 className='centered'>Restaurang Tai Lee</h1>
                 </div>
 
-                <div className="container center home-page">
+                <div className="container home-page">
 
 
                     <h1>Vi hälsar dig varmt välkommen till Tai Lee</h1>
@@ -26,9 +26,12 @@ const Home = () => {
                 </div>
                 <div className="container">
                     <section className='second-part'>
-                        <img src="/src/assets/images/12.JPG" alt="" className='image' />
-                        <img src="/src/assets/images/22.JPG" alt="" className='image' />
-                        <img src="/src/assets/images/11.JPG" alt="" className='image' />
+                        <img src="/src/assets/images/54.JPG" alt="" className='image' />
+                        <img src="/src/assets/images/53.JPG" alt="" className='image' />
+                        <img src="/src/assets/images/55.JPG" alt="" className='image' />
+                        <img src="/src/assets/images/50.JPG" alt="" className='image' />
+                        <img src="/src/assets/images/51.JPG" alt="" className='image' />
+                        <img src="/src/assets/images/52.JPG" alt="" className='image' />
                     </section>
                 </div>
                 <div className="container">
