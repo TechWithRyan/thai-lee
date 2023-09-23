@@ -41,8 +41,6 @@
     filter: brightness(50%);
 }
 
-
-
 body {
     background-color: bisque;
     background-repeat: no-repeat;
@@ -80,10 +78,35 @@ body {
 .home-page {
     color: rgb(0, 0, 0);
     font-size: 30px;
-    height: 70vh;
+    height: 50vh;
+    padding: 10rem;
     display: flex;
     flex-direction: column;
     background-color: bisque;
+}
+
+.container-take-away {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.images-left img {
+    width: 30vw;
+
+    left: 0;
+}
+
+.images-right img {
+    width: 30vw;
+
+    right: 0;
 }
 
 .main-container {
