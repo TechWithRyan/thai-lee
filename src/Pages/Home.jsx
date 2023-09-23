@@ -7,7 +7,7 @@ const Home = () => {
             <div className="App">
                 <div className="container-text">
                     <section className='text-over'>
-                        <img src="/src/assets/images/55.JPG" alt="" className='banner' />
+                        <img src={"/src/assets/images/55.JPG"} alt="" className='banner' />
 
                     </section>
                     <h1 className='centered'>Restaurang Tai Lee</h1>
@@ -26,12 +26,12 @@ const Home = () => {
                 </div>
                 <div className="container">
                     <section className='second-part'>
-                        <img src="/src/assets/images/54.JPG" alt="" className='image' />
-                        <img src="/src/assets/images/53.JPG" alt="" className='image' />
-                        <img src="/src/assets/images/55.JPG" alt="" className='image' />
-                        <img src="/src/assets/images/50.JPG" alt="" className='image' />
-                        <img src="/src/assets/images/51.JPG" alt="" className='image' />
-                        <img src="/src/assets/images/52.JPG" alt="" className='image' />
+                        <img src={"/src/assets/images/54.JPG"} alt="" className='image' />
+                        <img src={"/src/assets/images/53.JPG"} alt="" className='image' />
+                        <img src={"/src/assets/images/55.JPG"} alt="" className='image' />
+                        <img src={"/src/assets/images/50.JPG"} alt="" className='image' />
+                        <img src={"/src/assets/images/51.JPG"} alt="" className='image' />
+                        <img src={"/src/assets/images/52.JPG"} alt="" className='image' />
                     </section>
                 </div>
                 <div className="container">
