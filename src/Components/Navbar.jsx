@@ -29,15 +29,19 @@ const Navbar = () => {
                 <Link to="/take-away" onClick={closeNavbar}>Take away</Link>
                 {/*                 <Link to="/galleri" onClick={closeNavbar}>Galleri</Link>
  */}
-                <a href="tel">0303-18177</a>
+                <a href="tel:0303-18177">0303-18177</a>
+
+
                 <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                     <FaTimes />
                 </button>
+
             </nav>
             <button className='nav-btn' onClick={showNavbar}>
 
                 <FaBars />
             </button>
+
         </header>
     )
 }
