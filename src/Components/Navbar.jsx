@@ -19,26 +19,29 @@ const Navbar = () => {
 
     return (
         <header>
-            <h3 className='logo'><a href='/'>Restaurang Tai Lee</a></h3>
+            <h3 className='logo'><a href='/'> Restaurang Tai Lee</a></h3>
             <nav ref={navRef}>
                 <h3 className='logo nav-btn'>Restaurang Tai Lee</h3>
 
                 <Link to="/" onClick={closeNavbar}>Hem</Link>
                 <Link to="/lunch" onClick={closeNavbar}>Lunchbuffé</Link>
                 <Link to="/helg" onClick={closeNavbar}>Helgbuffé</Link>
-                <Link to="/contact" onClick={closeNavbar}>Kontakt</Link>
                 <Link to="/take-away" onClick={closeNavbar}>Take away</Link>
-                <div className='navbar-item'>
-                    <a href="https://www.facebook.com/profile.php?id=100089347540081"><FaFacebook /></a>
-                </div>
+                {/*                 <Link to="/galleri" onClick={closeNavbar}>Galleri</Link>
+ */}
+                <a href="tel:0303-18177">0303-18177</a>
+
+
                 <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                     <FaTimes />
                 </button>
+
             </nav>
             <button className='nav-btn' onClick={showNavbar}>
 
                 <FaBars />
             </button>
+
         </header>
     )
 }
