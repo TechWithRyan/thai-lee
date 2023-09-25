@@ -1,11 +1,11 @@
 import React from 'react';
 import "../Styles/main.css";
-import image6 from '../assets/56.jpg';
-import image0 from '../assets/50.jpg';
-import image1 from '../assets/51.jpg';
-import image2 from '../assets/52.jpg';
-import image3 from '../assets/53.jpg';
-import image4 from '../assets/54.jpg';
+import image6 from '../assets/20.jpg';
+import image0 from '../assets/21.jpg';
+import image1 from '../assets/22.jpg';
+import image2 from '../assets/23.jpg';
+import image3 from '../assets/24.jpg';
+import image4 from '../assets/25.jpg';
 
 const Home = () => {
     return (
