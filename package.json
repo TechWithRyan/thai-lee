@@ -12,12 +12,16 @@
   "dependencies": {
     "browser-router": "^0.2.0",
     "bulma": "^0.9.4",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-photo-album": "^2.3.0",
     "react-router": "^6.16.0",
-    "react-router-dom": "^6.16.0"
+    "react-router-dom": "^6.16.0",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "@rollup/plugin-image": "^3.0.2",
