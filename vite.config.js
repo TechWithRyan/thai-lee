@@ -1,12 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import image6 from '../assets/55.jpg';
+import image from '@rollup/plugin-image'; // Lägg till den här
 
 export default defineConfig({
   plugins: [
     react(),
-    image6(), // lägg till den här
-
+    image(), // lägg till den här
   ],
 
   build: {
