@@ -1,11 +1,12 @@
-import image6 from '@rollup/plugin-image'; // Lägg till den här
-import React from 'react';
-import { defineConfig } from 'rollup';
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
 
 export default defineConfig({
   plugins: [
-    React,
-    image6(), // lägg till den här
+    react(),
+
+
   ],
 
   build: {
