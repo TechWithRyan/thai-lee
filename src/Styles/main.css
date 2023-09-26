@@ -308,6 +308,7 @@ h4 {
 
     .third-part {
         display: flex;
+        align-items: center;
     }
 }
 
