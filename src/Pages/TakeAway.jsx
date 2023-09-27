@@ -1,5 +1,8 @@
 import React from 'react'
 import '../Styles/main.css'
+import takeAwayPhotoLeft from '../assets/55.jpg';
+import takeAwayPhotoRight from '../assets/54.jpg';
+
 
 const TakeAway = () => {
     return (
@@ -7,19 +10,18 @@ const TakeAway = () => {
             <div className="main-container">
 
 
-                <div className="container-take-away">
-
-                    <div className='images-left'>
-                        <img src="/src/assets/images/55.JPG" alt="" align="left"></img>
-                    </div>
-                    <div className='images-right'>
-
-                        <img src="/src/assets/images/54.JPG" alt="" align="right"></img>
-                    </div>
-                </div>
 
                 <div className='container'>
                     <div className="box">
+                        {/* <div className="container-take-away">
+                            <div className="container images-left ">
+                                <img src={takeAwayPhotoLeft} alt="food" />
+                            </div>
+                            <div className="container images-right ">
+                                <img src={takeAwayPhotoRight} alt="food" />
+                            </div>
+
+                        </div> */}
                         <h1 className='container'>Take away</h1>
                         <div className='container'>
                             <h4>1. Kinesiska vårrullar 76:- </h4>
